@@ -1,0 +1,148 @@
+{
+  "Header": {
+    "title": "CSEA",
+    "paragraph": "Computer Science and Engineering Association, IIT Guwahati"
+  },
+  "About": {
+    "paragraph": "We are the Computer Science student body organization of IIT Guwahati",
+    
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Event",
+      "Image": "img/portfolio/01-large.jpg"
+      
+    },
+    {
+      "title": "Event",
+      "Image": "img/portfolio/01-large.jpg"
+      
+    },
+    {
+      "title": "Event",
+      "Image": "img/portfolio/01-large.jpg"
+      
+    },
+    {
+      "title": "Event",
+      "Image": "img/portfolio/01-large.jpg"
+      
+    },
+    {
+      "title": "Event",
+      "Image": "img/portfolio/01-large.jpg"
+      
+    },
+    {
+      "title": "Event",
+      "Image": "img/portfolio/01-large.jpg"
+      
+    },
+    {
+      "title": "Event",
+      "Image": "img/portfolio/01-large.jpg"
+      
+    },
+    {
+      "title": "Event",
+      "Image": "img/portfolio/01-large.jpg"
+     
+    },
+    {
+      "title": "Event",
+      "Image": "img/portfolio/01-large.jpg"
+      
+    }
+  ],
+  
+  "Testimonials": [
+    {
+      "original": "img/testimonials/01.jpg"
+  
+    },
+    {
+      "original": "img/testimonials/02.jpg"
+    
+    },
+    {
+      "original": "img/testimonials/03.jpg"
+   
+    },
+    {
+      "original": "img/testimonials/04.jpg"
+      
+    },
+    {
+      "original": "img/testimonials/05.jpg"
+      
+    },
+    {
+      "original": "img/testimonials/06.jpg"
+      
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Ayush Kumar",
+      "job": "Tech Ex."
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Dev Shah",
+      "job": "Tech Ex."
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Ayush Kumar",
+      "job": "Tech Ex"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Ayush Kumar",
+      "job": "Tech Ex"
+    }
+  ],
+  "Events": [
+    {
+      "img": "img/testimonials/01.jpg"
+     
+    },
+    {
+      "img": "img/testimonials/02.jpg"
+      
+    },
+    {
+      "img": "img/testimonials/03.jpg"
+     
+    },
+    {
+      "img": "img/testimonials/04.jpg"
+      
+    },
+    {
+      "img": "img/testimonials/05.jpg"
+    
+    },
+    {
+      "img": "img/testimonials/06.jpg"
+      
+    }
+  ],
+ 
+  "Contact": {
+    "address": "IIT Guwahati ",
+    "phone": "123456789",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  }
+ 
+}
