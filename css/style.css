@@ -128,7 +128,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #f6d500 0%, #042d58 100%) !important;
+  background: linear-gradient(to right, #f60000 0%, #042d58 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -155,7 +155,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #E0D816 0%, #E0D816 100%);
+  background: linear-gradient(to right, #fff200 0%, #E0D816 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -214,7 +214,7 @@ a:focus,
   
  
   background: rgb(0,0,1);
-  background: linear-gradient(90deg, rgba(0,0,1,1) 0%, rgba(9,9,121,1) 57%, rgba(227,255,0,0.35290612827162116) 100%);
+  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(12, 7, 51) 57%, rgba(12, 17, 50, 0.353) 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -375,8 +375,8 @@ header .intro-text {
   color: #fff;
   background: linear-gradient(
     to right,
-    rgba(19, 42, 246, 0.8) 0%,
-    rgba(142, 154, 8, 0.714) 100%
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(8, 0, 98, 0.714) 100%
   );
   padding: 30% 0 0;
   height: 100%;
@@ -445,7 +445,7 @@ header .intro-text {
   color: #666;
 }
 .gall{
-  color: #e2de5e;
+  color: #ffffff;
 
 }
 /* Team Section */
