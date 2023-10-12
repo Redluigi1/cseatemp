@@ -213,8 +213,8 @@ a:focus,
   padding: 0;
   
  
-  background: rgb(0,0,1);
-  background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(12, 7, 51) 57%, rgba(12, 17, 50, 0.353) 100%);
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(24,14,46,1) 58%, rgba(17,6,97,1) 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
