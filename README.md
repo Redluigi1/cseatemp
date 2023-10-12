@@ -1,6 +1,6 @@
 
 
-## Make it Yours!
+
 ### 1. Preps
 You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
 
