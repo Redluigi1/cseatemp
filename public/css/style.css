@@ -54,6 +54,8 @@ a:focus {
 ul,
 ol {
   list-style: none;
+  
+  
 }
 ul,
 ol {
@@ -76,7 +78,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #dcdfc1;
+  background-color: #000000;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -84,13 +86,13 @@ hr {
   font-family: "Raleway", sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: #333;
+  color: #ffffff;
   text-transform: uppercase;
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
-  color: #555;
+  color: #ffffff;
   font-size: 15px;
   font-weight: 400;
   padding: 8px 2px;
@@ -104,7 +106,8 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #f6d500 0%, #042d58 100%);
+  background: linear-gradient(to right, #0c00f6 0%, #971313 100%);
+  
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +128,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #f6d500 0%, #042d58 100%) !important;
+  background: linear-gradient(to right, #f60000 0%, #042d58 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -152,7 +155,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #E0D816 0%, #E0D816 100%);
+  background: linear-gradient(to right, #fff200 0%, #E0D816 100%);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -210,8 +213,8 @@ a:focus,
   padding: 0;
   
  
-  background: rgb(0,0,1);
-  background: linear-gradient(90deg, rgba(0,0,1,1) 0%, rgba(9,9,121,1) 57%, rgba(227,255,0,0.35290612827162116) 100%);
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(24,14,46,1) 58%, rgba(17,6,97,1) 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -372,8 +375,8 @@ header .intro-text {
   color: #fff;
   background: linear-gradient(
     to right,
-    rgba(19, 42, 246, 0.8) 0%,
-    rgba(142, 154, 8, 0.714) 100%
+    rgba(0, 0, 0, 0.8) 0%,
+    rgba(8, 0, 98, 0.714) 100%
   );
   padding: 30% 0 0;
   height: 100%;
@@ -442,7 +445,7 @@ header .intro-text {
   color: #666;
 }
 .gall{
-  color: #e2de5e;
+  color: #ffffff;
 
 }
 /* Team Section */
@@ -605,8 +608,21 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+    
+
   }
+  #header{
+    max-height: 400px;
+    margin-top: 0;
+    
+  }
+  #menu{
+    margin-bottom: 0;
+  }
+
+
 }
