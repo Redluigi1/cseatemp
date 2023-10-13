@@ -1,6 +1,6 @@
 {
   "name": "landingpage-react-template",
-  
+  "homepage": "https://redluigi1.github.io/cseatemp/",
  
   
   "private": true,
@@ -20,7 +20,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    
 
 
 
