@@ -608,6 +608,54 @@ label {
   border-bottom: 2px solid #608dfd;
 }
 
+#team .container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#team .container .section-title {
+  margin-bottom: 20px; 
+}
+
+#team .container .team-scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+#team .container .team-scroll-container::-webkit-scrollbar {
+  width: 3px;
+}
+
+#team .container .team-scroll-container::-webkit-scrollbar-thumb {
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+#team .container .team-scroll-container::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+
+#team .container .team-scroll-row {
+  display: inline-flex;
+  gap: 15px; 
+}
+
+#team .container .card_team {
+  width: 250px;
+  
+  transition: border 0.1s; 
+}
+
+#team .container .card_team:hover {
+  border: 2px solid #000; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+
 
 @media (max-width: 768px) {
   #about img {
