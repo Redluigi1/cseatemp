@@ -213,12 +213,14 @@ a:focus,
   padding: 0;
   
  
-  background: rgb(0,0,0);
+  
+  
   background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(24,14,46,1) 58%, rgba(17,6,97,1) 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
@@ -621,14 +623,15 @@ label {
 #team .container .team-scroll-container {
   overflow-x: auto;
   white-space: nowrap;
+  z-index: 1;
 }
 
 #team .container .team-scroll-container::-webkit-scrollbar {
-  width: 3px;
+  width: thin;
 }
 
 #team .container .team-scroll-container::-webkit-scrollbar-thumb {
-  background-color: #ffffff;
+  background-color: #171616;
   border-radius: 6px;
 }
 
