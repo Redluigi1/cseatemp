@@ -19,10 +19,19 @@ export const Team = (props) => {
                   <div className="thumbnail">
                     {" "}
                     <img src={d.img} alt="..." className="team-img" />
-                    <div className="caption">
-                      <h4>{d.name}</h4>
-                      <p>{d.job}</p>
-                    </div>
+                    <div class="ag-courses_box">
+    <div class="ag-courses_item">
+      <a href="#" class="ag-courses-item_link">
+        <div class="ag-courses-item_bg"></div>
+
+        <div class="ag-courses-item_title">
+          <p>{d.name}</p>
+          <p>{d.job}</p>
+
+        </div>
+      </a>
+    </div>
+</div>
                   </div>
                 </div>
               ))}

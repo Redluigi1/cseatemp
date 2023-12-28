@@ -27,7 +27,7 @@ export default function App() {
         },
         "particles": {
             "number": {
-                "value": 10,
+                "value": 20,
                 "density": {
                     "enable": false,
                     "value_area": 800
@@ -58,7 +58,7 @@ export default function App() {
                 "anim": {
                     "enable": false,
                     "speed": 40,
-                    "size_min": 0.1,
+                    "size_min": 0.7,
                     "sync": false
                 }
             },
@@ -135,8 +135,8 @@ export default function App() {
             
             "image": "",
             "position": "50% 50%",
-            "repeat": "no-repeat",
-            "size": "cover"
+            "repeat": "no-repeat"
+            
         }
     }
     }
