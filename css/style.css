@@ -211,18 +211,38 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  
- 
-  background: rgb(0,0,0);
-  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(24,14,46,1) 58%, rgba(17,6,97,1) 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(24, 14, 46, 1) 58%, rgba(17, 6, 97, 1) 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
+
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
+
+.intro h1,
+.intro p {
+  opacity: 0;
+  transform: translateY(50px); /* Initial position, adjust as needed */
+
+  /* Animation */
+  animation: fadeInUp 1.5s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -232,10 +252,12 @@ a:focus,
   margin-top: 0;
   margin-bottom: 10px;
 }
+
 .intro h1 span {
   font-weight: 800;
   color: #5ca9fb;
 }
+
 .intro p {
   color: #fff;
   font-size: 22px;
@@ -244,11 +266,13 @@ a:focus,
   margin: 0 auto;
   margin-bottom: 60px;
 }
+
 header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
 }
+
 /* Features Section */
 #features {
   background: #f6f6f6;
@@ -312,6 +336,21 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+/* Add these styles to your existing CSS file or create a new one */
+
+/* Initial state of the about-text */
+#about .about-text {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Applied when the about-text is in the viewport */
+#about .about-text.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* Services Section */
 #services {
   padding: 100px 0;
@@ -457,6 +496,7 @@ header .intro-text {
 }
 #team .team-img {
   width: 240px;
+  margin-bottom: 5px;
 }
 #team .thumbnail {
   background: transparent;
@@ -466,6 +506,139 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+
+
+
+#team .ag-courses_box {
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0px 0;
+}
+
+@media (min-width: 769px) {
+  .team-scroll-row {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    overflow-x: hidden;
+  }
+}
+
+
+
+#team .ag-courses_item {
+  -ms-flex-preferred-size: calc(33.33333% - 30px);
+  flex-basis: calc(33.33333% - 30px);
+  margin: 0 0px 0px;
+  overflow: hidden;
+  border-radius: 28px;
+}
+
+#team .ag-courses-item_link {
+  display: block;
+  padding: 2px 0px;
+  background-color: #010116;
+  overflow: hidden;
+  position: relative;
+}
+
+
+#team .ag-courses-item_link:hover,
+#team .ag-courses-item_link:hover .ag-courses-item_date {
+  text-decoration: none;
+  color: #FFF;
+}
+
+#team .ag-courses-item_link:hover .ag-courses-item_bg {
+  -webkit-transform: scale(10);
+  -ms-transform: scale(10);
+  transform: scale(10);
+}
+
+#team .ag-courses-item_title {
+  min-height: 40px;
+  margin: 0 0 0;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 15px;
+  color: #FFF;
+  z-index: 2;
+  position: relative;
+}
+#team p{
+  font-size: 20px;
+}
+
+#team .ag-courses-item_bg {
+  height: 128px;
+  width: 128px;
+  background-color: #f3da4c;
+  z-index: 1;
+  position: absolute;
+  top: -75px;
+  right: -75px;
+  border-radius: 50%;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+@media only screen and (max-width: 979px) {
+  #team .ag-courses_item {
+    -ms-flex-preferred-size: calc(50% - 30px);
+    flex-basis: calc(50% - 30px);
+  }
+  #team .ag-courses-item_title {
+    font-size: 30px;
+    min-height: 20px;
+  }
+
+  #team .ag-courses_box {
+    width: 225px;
+    
+
+  }
+  #team p{
+    font-size:large;
+  }
+  
+}
+
+@media only screen and (max-width: 767px) {
+  #team .ag-format-container {
+    width: 46%;
+  }
+}
+
+@media only screen and (max-width: 639px) {
+  #team .ag-courses_item {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+  }
+  #team .ag-courses-item_title {
+    min-height: 72px;
+    line-height: 1;
+    font-size: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
@@ -607,6 +780,52 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
+
+#team .container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#team .container .section-title {
+  margin-bottom: 20px; 
+}
+
+#team .container .team-scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+  z-index: 1;
+}
+
+#team .container .team-scroll-container::-webkit-scrollbar {
+  width: thin;
+}
+
+#team .container .team-scroll-container::-webkit-scrollbar-thumb {
+  background-color: #171616;
+  border-radius: 6px;
+}
+
+#team .container .team-scroll-container::-webkit-scrollbar-track {
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+
+#team .container .team-scroll-row {
+  display: inline-flex;
+  gap: 15px; 
+}
+
+#team .container .card_team {
+  width: 250px;
+  
+  transition: border 0.1s; 
+}
+
+
+
+
 
 
 @media (max-width: 768px) {
