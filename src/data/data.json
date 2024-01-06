@@ -90,47 +90,47 @@
   "Team": [
     {
       "img": "img/team/01.jpg",
+      "name": "Pranshu Pandya",
+      "job": "Tech Ex."
+    },
+    {
+      "img": "img/team/ayush.jpg",
       "name": "Ayush Kumar",
       "job": "Tech Ex."
     },
     {
-      "img": "img/team/02.jpg",
+      "img": "img/team/dev.jpg",
       "name": "Dev Shah",
-      "job": "Tech Ex."
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Ayush Kumar",
       "job": "Tech Ex"
     },
     {
-      "img": "img/team/04.jpg",
-      "name": "Ayush Kumar",
+      "img": "img/team/kanisk.jpg",
+      "name": "Kanishk Mehta",
       "job": "Tech Ex"
     },
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/ayush.jpg",
       "name": "Ayush Kumar",
       "job": "Tech Ex."
     },
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/ayush.jpg",
       "name": "Ayush Kumar",
       "job": "Tech Ex."
     },
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/ayush.jpg",
       "name": "Ayush Kumar",
       "job": "Tech Ex."
     },
     
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/ayush.jpg",
       "name": "Ayush Kumar",
       "job": "Tech Ex."
     },
     {
-      "img": "img/team/01.jpg",
+      "img": "img/team/ayush.jpg",
       "name": "Ayush Kumar",
       "job": "Tech Ex."
     }

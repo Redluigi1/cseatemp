@@ -496,6 +496,7 @@ header .intro-text {
 }
 #team .team-img {
   width: 240px;
+  margin-bottom: 5px;
 }
 #team .thumbnail {
   background: transparent;
@@ -505,6 +506,8 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+
+
 
 #team .ag-courses_box {
   width: 800px;
@@ -518,6 +521,18 @@ header .intro-text {
   flex-wrap: wrap;
   padding: 0px 0;
 }
+
+@media (min-width: 769px) {
+  .team-scroll-row {
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-between;
+    overflow-x: hidden;
+  }
+}
+
+
 
 #team .ag-courses_item {
   -ms-flex-preferred-size: calc(33.33333% - 30px);
@@ -534,6 +549,7 @@ header .intro-text {
   overflow: hidden;
   position: relative;
 }
+
 
 #team .ag-courses-item_link:hover,
 #team .ag-courses-item_link:hover .ag-courses-item_date {
