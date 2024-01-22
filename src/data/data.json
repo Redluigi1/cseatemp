@@ -109,31 +109,22 @@
       "job": "Tech Ex"
     },
     {
-      "img": "img/team/ayush.jpg",
-      "name": "Ayush Kumar",
+      "img": "img/team/anushka.jpg",
+      "name": "Anushka Gupta",
       "job": "Tech Ex."
     },
     {
-      "img": "img/team/ayush.jpg",
-      "name": "Ayush Kumar",
+      "img": "img/team/mahua.jpg",
+      "name": "Mahua Singh",
       "job": "Tech Ex."
     },
     {
-      "img": "img/team/ayush.jpg",
-      "name": "Ayush Kumar",
-      "job": "Tech Ex."
-    },
-    
-    {
-      "img": "img/team/ayush.jpg",
-      "name": "Ayush Kumar",
-      "job": "Tech Ex."
-    },
-    {
-      "img": "img/team/ayush.jpg",
-      "name": "Ayush Kumar",
+      "img": "img/team/vikrant.jpg",
+      "name": "Vikrant Dahia",
       "job": "Tech Ex."
     }
+    
+ 
   ],
   "Events": [
     {
