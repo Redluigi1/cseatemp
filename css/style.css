@@ -497,6 +497,10 @@ header .intro-text {
 #team .team-img {
   width: 240px;
   margin-bottom: 5px;
+  
+}
+#team .team-img-container{
+  min-height: 350px;
 }
 #team .thumbnail {
   background: transparent;
