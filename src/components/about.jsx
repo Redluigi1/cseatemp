@@ -35,7 +35,8 @@ export const About = (props) => {
             <div className="about-text">
               <h2>About Us</h2>
               <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Stuff?</h3>
+              <h3>
+            We're the team behind the fun and learning in the CSE department, organizing everything from Fresher's and Farewell parties to academic talks. We also organize a myriad of fun events and intra-branch sports tournaments. </h3>
             </div>
           </div>
         </div>

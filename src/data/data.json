@@ -4,86 +4,94 @@
     "paragraph": "Computer Science and Engineering Association, IIT Guwahati"
   },
   "About": {
-    "paragraph": "We are the Computer Science student body organization of IIT Guwahati",
-    
-    "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
-    ]
+    "paragraph": "Computer Science student body organization of IIT Guwahati"
+   
   },
   "Gallery": [
     {
-      "title": "Event",
-      "Image": "img/portfolio/01-large.jpg"
+      "title": "Freshers 2024",
+      "Image": "img/portfolio/Freshers_24.jpg"
       
     },
     {
-      "title": "Event",
-      "Image": "img/portfolio/01-large.jpg"
+      "title": "Freshers 2024",
+      "Image": "img/portfolio/Freshers_24_1.jpeg"
       
     },
     {
-      "title": "Event",
-      "Image": "img/portfolio/01-large.jpg"
+      "title": "Freshers 2024",
+      "Image": "img/portfolio/Freshers_24_2.jpeg"
       
     },
     {
-      "title": "Event",
-      "Image": "img/portfolio/01-large.jpg"
+      "title": "4th Sem Acad Talk",
+      "Image": "img/portfolio/second_sem_acad.jpeg"
       
     },
     {
-      "title": "Event",
-      "Image": "img/portfolio/01-large.jpg"
+      "title": "CP-101 2024",
+      "Image": "img/portfolio/cp101.jpeg"
       
     },
     {
-      "title": "Event",
-      "Image": "img/portfolio/01-large.jpg"
+      "title": "CP Lecture",
+      "Image": "img/portfolio/cp_lec.jpg"
       
     },
     {
-      "title": "Event",
-      "Image": "img/portfolio/01-large.jpg"
+      "title": "TT Tournament",
+      "Image": "img/portfolio/tt.jpg"
       
     },
     {
-      "title": "Event",
-      "Image": "img/portfolio/01-large.jpg"
+      "title": "TT Tournament",
+      "Image": "img/portfolio/tt2.jpg"
      
     },
     {
-      "title": "Event",
-      "Image": "img/portfolio/01-large.jpg"
+      "title": "Talk By John Jose",
+      "Image": "img/portfolio/jj.jpg"
+      
+    },
+
+    {
+      "title": "Second Sem Acad Talk",
+      "Image": "img/portfolio/2ndsem.jpeg"
       
     }
   ],
   
   "Testimonials": [
     {
-      "original": "img/testimonials/01.jpg"
+      "original": "img/testimonials/Freshers_24_1.jpeg"
   
     },
     {
-      "original": "img/testimonials/02.jpg"
+      "original": "img/testimonials/us.jpeg"
     
     },
     {
-      "original": "img/testimonials/03.jpg"
+      "original": "img/testimonials/us2.jpeg"
    
     },
     {
-      "original": "img/testimonials/04.jpg"
+      "original": "img/testimonials/tt1.jpg"
       
     },
     {
-      "original": "img/testimonials/05.jpg"
+      "original": "img/testimonials/tt2.jpg"
       
     },
     {
-      "original": "img/testimonials/06.jpg"
+      "original": "img/testimonials/s1.jpg"
+      
+    },
+    {
+      "original": "img/testimonials/s2.jpg"
+      
+    },
+    {
+      "original": "img/testimonials/s3.jpg"
       
     }
   ],
@@ -91,75 +99,80 @@
     {
       "img": "img/team/01.jpg",
       "name": "Pranshu Pandya",
-      "job": "Tech Ex."
+      "job": "General Secretary"
     },
     {
-      "img": "img/team/ayush.jpg",
+      "img": "img/team/Gunjan.jpg",
+      "name": "Gunjan Dhanuka",
+      "job": "Treasurer"
+    },
+    {
+      "img": "img/team/Vedant.jpg",
+      "name": "Vedant Shah",
+      "job": "SAIL Head"
+    },
+    {
+      "img": "img/team/Arya.jpg",
+      "name": "Arya Phadke",
+      "job": "Events Head"
+    },
+    {
+      "img": "img/team/Aadi.jpg",
+      "name": "Aadi Aarya Chandra",
+      "job": "BR 4th Year"
+    },
+  
+    {
+      "img": "img/team/Aasneh.jpg",
+      "name": "Aasneh Prasad",
+      "job": "Events Executive"
+    },
+    {
+      "img": "img/team/ayush.jpeg",
       "name": "Ayush Kumar",
-      "job": "Tech Ex."
+      "job": "Technical  Manager"
     },
     {
       "img": "img/team/dev.jpg",
       "name": "Dev Shah",
-      "job": "Tech Ex"
+      "job": "Technical  Manager"
     },
     {
       "img": "img/team/kanisk.jpg",
       "name": "Kanishk Mehta",
-      "job": "Tech Ex"
+      "job": "Events Manager"
     },
     {
       "img": "img/team/anushka.jpg",
       "name": "Anushka Gupta",
-      "job": "Tech Ex."
+      "job": "SAIL Represen. 2nd Year"
     },
     {
       "img": "img/team/mahua.jpg",
       "name": "Mahua Singh",
-      "job": "Tech Ex."
+      "job": "Events Manager"
     },
     {
       "img": "img/team/vikrant.jpg",
       "name": "Vikrant Dahia",
-      "job": "Tech Ex."
+      "job": "Events Manager"
+    },
+    {
+      "img": "img/team/aryan.jpeg",
+      "name": "Aryan Arya",
+      "job": "BR 2nd Year"
     }
     
  
   ],
-  "Events": [
-    {
-      "img": "img/testimonials/01.jpg"
-     
-    },
-    {
-      "img": "img/testimonials/02.jpg"
-      
-    },
-    {
-      "img": "img/testimonials/03.jpg"
-     
-    },
-    {
-      "img": "img/testimonials/04.jpg"
-      
-    },
-    {
-      "img": "img/testimonials/05.jpg"
-    
-    },
-    {
-      "img": "img/testimonials/06.jpg"
-      
-    }
-  ],
+  
  
   "Contact": {
     "address": "IIT Guwahati ",
-    "phone": "123456789",
-    "email": "info@company.com",
-    "facebook": "fb.com",
-    "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    
+    "email": "csea@iitg.ac.in",
+
+    "instagram": "https://www.instagram.com/csea_iitg/"
   }
  
 }

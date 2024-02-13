@@ -43,7 +43,8 @@ export const Team = (props) => {
                   <div className="thumbnail">
                     {" "}
                     <div className="team-img-container">
-                    <img src={d.img} alt="..." className="team-img" /></div>
+                    <img src={d.img} alt="..." className="team-img" />
+                    </div>
                     <div className="ag-courses_box">
                       <div className="ag-courses_item">
                         <a href="#" className="ag-courses-item_link">
